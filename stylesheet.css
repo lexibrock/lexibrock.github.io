@@ -1,48 +1,96 @@
 body{
   background-color: lightgrey;
+  height: 100%;
 }
-nav
-{
-    float:left;
-    height: 100vh;
+
+.Title {
+    text-align: center;
+    font-family: Rockwell;
+    font-size: 50px;
+    margin: 10px;
 }
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    width: 33.33%;
+p{
+    padding-left: 15px;
 }
-/*anything with anchor tag, a, this is for the lists*/
-li a{
-    margin:5px;
-    padding: 1em 1.5em;
-    background-color: wheat;
-    display: block;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: navy;
+/* Style the links inside the pill navigation menu */
+.pill-nav {
+    background-color: antiquewhite;
     border-radius: 20px;
     text-align: center;
-
+    left: 0;
+    padding: 0;
+    width: 100%;
 }
-li a:hover{
-    background-color: darkgray;
-}
-ol{
-    padding-left: 50px
-}
-.Title{
+.pill-nav a {
+    display: inline-block;
+    border-radius: 20px;
+    align-content: center;
+    color: black;
     text-align: center;
-    font-family:Rockwell;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: thistle;
 }
 
-.nav {
-    background-color: lavender;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
+/* Change the color of links on mouse-over */
+.pill-nav a:hover {
+    background-color: lightgray;
+    color: black;
 }
 
-.nav-link {
-    display: block;
+/* Add a color to the active/current link */
+.pill-nav a.active {
+    background-color: darkgray;
+    color: white;
+}
+
+.Content{
+    margin-top: 45px;
+}
+.EmploymentCard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    display: inline-block;
+    max-width: 300px;
+    padding: 4px 4px;
+    margin: 10px;
+    background-color: white;
+}
+.EmploymentCard:hover {
+    background-color: dimgray;
+}
+image {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: 100%;
+}
+#Container {
+    padding: 2px 16px;
+}
+a:link, a:visited{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: black;
+}
+a:hover{
+    color: antiquewhite;
+}
+.profileimage {
+    width: 25%; 
+    height: 25%; 
+    border-radius: 25%;
+    float: right;
+}
+footer {
+    align-content: center;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: antiquewhite;
+    border-radius: 20px;
 }
