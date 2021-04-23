@@ -1,17 +1,16 @@
 body{
-  background-color: blue;
+  background-color: lightgrey;
 }
 nav
 {
-    background-color:aqua;
     float:left;
     height: 100vh;
-    /*vertical height */
 }
 ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    width: 33.33%;
 }
 /*anything with anchor tag, a, this is for the lists*/
 li a{
@@ -23,11 +22,27 @@ li a{
     text-decoration: none;
     color: navy;
     border-radius: 20px;
+    text-align: center;
 
 }
 li a:hover{
-    background-color: blue;
+    background-color: darkgray;
 }
 ol{
     padding-left: 50px
+}
+.Title{
+    text-align: center;
+    font-family:Rockwell;
+}
+
+.nav {
+    background-color: lavender;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-link {
+    display: block;
 }
